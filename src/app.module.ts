@@ -9,6 +9,10 @@ import { dataSourceOptions } from './config/typeorm.config';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { PatientsModule } from './patients/patients.module';
+import { ProfessionalsModule } from './professionals/professionals.module';
+import { AppointmentsModule } from './appointments/appointments.module';
+import { ClinicalEvolutionsModule } from './clinical-evolutions/clinical-evolutions.module';
+import { FinanceModule } from './finance/finance.module';
 import { CommonModule } from './common/common.module';
 import { JwtAuthGuard } from './auth/guards/jwt-auth.guard';
 import { join } from 'path';
@@ -64,6 +68,10 @@ import { join } from 'path';
     AuthModule,
     UsersModule,
     PatientsModule,
+    ProfessionalsModule,
+    AppointmentsModule,
+    ClinicalEvolutionsModule,
+    FinanceModule,
     CommonModule,
   ],
   providers: [
